@@ -48,7 +48,7 @@ Untuk mengatasi masalah non-stasioneritas dan pola multiplikatif, dilakukan lang
   **Hasil uji Dickey-Fuller** secara statistik juga mendukung kesimpulan tersebut. Nilai Test Statistic (-4.090266) lebih kecil dari Critical Value pada tingkat 1%, 5%, dan 10%, yang memungkinkan kita untuk menolak hipotesis nol (bahwa data tidak stasioner). Selain itu, p-value (0.001005) yang sangat kecil (jauh di bawah 0.05) memberikan bukti kuat bahwa data ini sudah stasioner. Oleh karena itu, data ini sudah siap untuk digunakan dalam pemodelan forecasting lebih lanjut.
 
 # 🤖 Pemodelan & Hasil
-[!Model Auto Arima](https://github.com/Herdvair/Time-Series-Forecasting/blob/main/AUTO-ARIMA.png)
+![Model Auto Arima](https://github.com/Herdvair/Time-Series-Forecasting/blob/main/AUTO-ARIMA.png)
 Wawasan : 
 Model AutoARIMA telah berhasil memprediksi data dengan akurat. Grafik "Original Data" dan "Full Forecast" menunjukkan bahwa garis prediksi (biru) secara ketat mengikuti pola data asli (hitam), termasuk fluktuasi naik-turun yang kompleks. Korelasi ini diperkuat oleh nilai RMSE (Root Mean Squared Error) sebesar 0.1651. Angka ini menunjukkan rata-rata kesalahan prediksi model autoARIMA adalah sekitar 0.1651. Berdasarkan skala asli pada data original antara 2.8 hingga 29.6, RMSE 0.1651 merupakan nilai yang sangat rendah, membuktikan bahwa model ini memiliki akurasi baik dalam forecasting time series ini.
 
